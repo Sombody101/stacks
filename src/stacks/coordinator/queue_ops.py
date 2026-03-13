@@ -9,6 +9,7 @@ import json
 import logging
 import sqlite3
 from datetime import datetime, timedelta
+from pathlib import Path
 from typing import Optional
 from urllib.parse import urlparse
 
@@ -472,6 +473,8 @@ class QueueOperations:
         """
         conn = get_connection()
         try:
+            resolved_filename = Path(filepath).name if filepath else None
+
             # Get the current download info (to get assigned_mirror)
             cursor = conn.execute(
                 "SELECT assigned_mirror FROM downloads WHERE md5 = ?",
@@ -500,6 +503,7 @@ class QueueOperations:
                 UPDATE downloads
                 SET status = ?,
                     success = ?,
+                    filename = COALESCE(?, filename),
                     filepath = ?,
                     error = ?,
                     used_fast_download = ?,
@@ -510,6 +514,7 @@ class QueueOperations:
             """, (
                 status,
                 1 if success else 0,
+                resolved_filename,
                 filepath,
                 error,
                 1 if used_fast_download else 0,

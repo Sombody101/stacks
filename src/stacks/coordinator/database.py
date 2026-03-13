@@ -1,9 +1,11 @@
 """
 SQLite database setup and connection management for the download queue.
 
-Uses WAL mode for concurrent read/write access from multiple processes.
+Uses a conservative journal mode by default because Docker Desktop bind
+mounts can behave poorly with SQLite WAL shared-memory files.
 """
 
+import os
 import sqlite3
 import json
 import logging
@@ -16,6 +18,8 @@ logger = logging.getLogger(__name__)
 
 # Database file path
 DATABASE_PATH = CONFIG_PATH / "queue.db"
+DEFAULT_JOURNAL_MODE = "DELETE"
+ALLOWED_JOURNAL_MODES = {"DELETE", "TRUNCATE", "PERSIST", "MEMORY", "WAL", "OFF"}
 
 # Database schema
 SCHEMA_SQL = """
@@ -93,19 +97,24 @@ CREATE TABLE IF NOT EXISTS system_flags (
 
 def get_connection() -> sqlite3.Connection:
     """
-    Get a database connection with WAL mode enabled.
+    Get a database connection with the configured journal mode enabled.
 
     Each call returns a new connection. Caller is responsible for closing it.
-    WAL mode allows concurrent readers while one writer is active.
-
     Returns:
         sqlite3.Connection with row_factory set to sqlite3.Row
     """
     # Ensure directory exists
     DATABASE_PATH.parent.mkdir(parents=True, exist_ok=True)
 
+    journal_mode = os.environ.get("STACKS_SQLITE_JOURNAL_MODE", DEFAULT_JOURNAL_MODE).upper()
+    if journal_mode not in ALLOWED_JOURNAL_MODES:
+        logger.warning(
+            f"Invalid STACKS_SQLITE_JOURNAL_MODE '{journal_mode}', falling back to {DEFAULT_JOURNAL_MODE}"
+        )
+        journal_mode = DEFAULT_JOURNAL_MODE
+
     conn = sqlite3.connect(str(DATABASE_PATH), timeout=30)
-    conn.execute("PRAGMA journal_mode=WAL")
+    conn.execute(f"PRAGMA journal_mode={journal_mode}")
     conn.execute("PRAGMA busy_timeout=30000")  # 30 second timeout for locks
     conn.execute("PRAGMA foreign_keys=ON")
     conn.row_factory = sqlite3.Row

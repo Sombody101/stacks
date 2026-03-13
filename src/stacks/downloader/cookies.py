@@ -1,9 +1,8 @@
-import time
 import json
-import re
+import time
 from urllib.parse import urlparse
-from pathlib import Path
-from stacks.constants import COOKIE_CACHE_DIR
+
+from stacks.constants import COOKIE_CACHE_DIR, KNOWN_MD5
 from stacks.utils.domainutils import get_working_domain, try_domains_until_success
 
 def _get_cookie_filename(domain_or_url):
@@ -117,7 +116,6 @@ def _prewarm_cookies_single_domain(d, domain):
 
     # Use a slow_download URL to trigger DDG challenge and get all cookies
     # This ensures we get __ddg* cookies needed for slow_download access
-    from stacks.constants import KNOWN_MD5
     test_url = f"https://{domain}/slow_download/{KNOWN_MD5}/0/0"
 
     success, cookies, _ = d.solve_with_flaresolverr(test_url)
