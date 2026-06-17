@@ -165,6 +165,7 @@
     if (document.getElementById("stacks-annas-toolbar")) return;
 
     const domain = document.body.dataset.stacksProxyDomain || "anna";
+    const originalUrl = document.body.dataset.stacksProxyUrl || `https://${domain}/`;
     const toolbar = document.createElement("div");
     toolbar.id = "stacks-annas-toolbar";
     toolbar.innerHTML = `
@@ -177,6 +178,14 @@
         <a class="stacks-annas-toolbar__pill" href="/aa/" target="_self">Anna Proxy Home</a>
       </div>
     `;
+
+    const originalLink = document.createElement("a");
+    originalLink.className = "stacks-annas-toolbar__pill";
+    originalLink.href = originalUrl;
+    originalLink.target = "_blank";
+    originalLink.rel = "noopener noreferrer";
+    originalLink.textContent = "Open Original";
+    toolbar.querySelector(".stacks-annas-toolbar__links").appendChild(originalLink);
 
     document.body.prepend(toolbar);
   }

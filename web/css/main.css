@@ -845,6 +845,19 @@ footer a:hover {
   display: inline-block;
 }
 
+.history-actions {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+.history-actions.visible {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 #history-list a {
   color: #ff79c6;
   -webkit-transition: color 0.2s ease-in-out;

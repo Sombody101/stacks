@@ -20,9 +20,15 @@ def solve_with_flaresolverr(d, url):
             json=payload,
             timeout=d.flaresolverr_timeout / 1000 + 10
         )
-        response.raise_for_status()
-        
-        data = response.json()
+        try:
+            data = response.json()
+        except ValueError:
+            data = {}
+
+        if not response.ok:
+            error_msg = data.get('message') or response.text or response.reason
+            d.logger.error(f"FlareSolverr HTTP {response.status_code}: {error_msg}")
+            return False, {}, None
         
         if data.get('status') == 'ok':
             solution = data.get('solution', {})

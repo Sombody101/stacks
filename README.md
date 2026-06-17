@@ -121,6 +121,30 @@ You can deploy it with either **Docker Compose** or the **Docker CLI**.
 
 5. Open `http://localhost:7788`, log in, and use **Browse Anna Proxy** to browse Anna's Archive directly inside Stacks.
 
+### Local repository scripts
+
+If you are running Stacks from a checked-out copy of this repository, these helper scripts wrap the included `docker-compose.yml`.
+
+Use `build-and-launch.sh` when you want to build from local source and run Stacks locally. It stops/removes existing Stacks containers and images after checking the project fingerprint, rebuilds the image, starts all Compose services, and attaches logs:
+
+```bash
+./build-and-launch.sh
+```
+
+Use `docker compose up -d` directly when you already have the image you want and only need to start the Compose services:
+
+```bash
+docker compose up -d
+```
+
+Use `build-docker-tar.sh` when you need a portable Docker image archive instead of a running local stack:
+
+```bash
+./build-docker-tar.sh
+```
+
+By default it writes `stacks-<version>-linux-amd64-docker-image.tar`. It does not start containers. Use this when preparing an image to transfer or load elsewhere with `docker load`.
+
 ### Docker CLI Installation
 
 If you prefer running Stacks without Docker Compose, you can use the Docker CLI directly.

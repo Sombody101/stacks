@@ -1,0 +1,349 @@
+[2026-06-14 17:22:39] [INFO] [worker.coordinator-1] Coordinator process starting
+[2026-06-14 17:22:39] [INFO] [worker.scraper-1] Scraper process starting
+[2026-06-14 17:22:39] [INFO] [worker.download-0] Download worker download-0 starting
+[2026-06-14 17:22:39] [INFO] [stacks.server] Stacks server initializing...
+[2026-06-14 17:22:39] [DEBUG] [config] Loaded config schema.
+[2026-06-14 17:22:39] [DEBUG] [config] Loaded config.
+[2026-06-14 17:22:39] [DEBUG] [config] Validating config.
+[2026-06-14 17:22:39] [DEBUG] [config] Config validated.
+[2026-06-14 17:22:39] [INFO] [stacks.server] Production mode: Using multi-process architecture
+[2026-06-14 17:22:39] [INFO] [stacks.server] Stacks initialized
+[2026-06-14 17:22:39] [INFO] [domainupdater] Fetched 3 domain(s) from Wikipedia: ['annas-archive.pk', 'annas-archive.gd', 'annas-archive.gl']
+[2026-06-14 17:23:19] [WARNING] [api] Failed login attempt from 192.168.65.1
+[2026-06-14 17:23:46] [INFO] [api] Successful login from 192.168.65.1
+[2026-06-14 17:24:03] [INFO] [stacks.annas_proxy] Cached 4 cookies for https://annas-archive.gl/ -> cookie-annas-archive-gl.json
+[2026-06-14 17:24:03] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.gl
+[2026-06-14 17:24:03] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.gl
+[2026-06-14 17:24:03] [INFO] [stacks.annas_proxy] Loaded 4 fresh cached cookies for annas-archive.gl
+[2026-06-14 17:24:03] [INFO] [stacks.annas_proxy] Cached 3 cookies for https://annas-archive.gl/css/app.css?hash=c845583244c957d7f819 -> cookie-annas-archive-gl.json
+[2026-06-14 17:24:03] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.gl
+[2026-06-14 17:24:03] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.gl
+[2026-06-14 17:24:03] [INFO] [stacks.annas_proxy] Loaded 3 fresh cached cookies for annas-archive.gl
+[2026-06-14 17:24:03] [INFO] [stacks.annas_proxy] Cached 4 cookies for https://annas-archive.gl/js/app.js?hash=5a353d06ed51b8ab50b6 -> cookie-annas-archive-gl.json
+[2026-06-14 17:24:03] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.gl
+[2026-06-14 17:24:03] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.gl
+[2026-06-14 17:24:04] [INFO] [stacks.annas_proxy] Loaded 4 fresh cached cookies for annas-archive.gl
+[2026-06-14 17:24:04] [WARNING] [stacks.annas_proxy] Failed with domain annas-archive.gl: Blocked by remote protection on annas-archive.gl
+[2026-06-14 17:24:04] [WARNING] [stacks.annas_proxy] Failed with domain annas-archive.vg: HTTPSConnectionPool(host='annas-archive.vg', port=443): Max retries exceeded with url: /apple-touch-icon.png?hash=d2fa3410fb1ae23ef0ab (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1081)')))
+[2026-06-14 17:24:04] [INFO] [stacks.annas_proxy] Cached 4 cookies for https://annas-archive.pk/apple-touch-icon.png?hash=d2fa3410fb1ae23ef0ab -> cookie-annas-archive-pk.json
+[2026-06-14 17:24:04] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:24:04] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:24:04] [INFO] [stacks.annas_proxy] Loaded 4 fresh cached cookies for annas-archive.gl
+[2026-06-14 17:24:04] [WARNING] [stacks.annas_proxy] Failed with domain annas-archive.gl: Blocked by remote protection on annas-archive.gl
+[2026-06-14 17:24:04] [WARNING] [stacks.annas_proxy] Failed with domain annas-archive.vg: HTTPSConnectionPool(host='annas-archive.vg', port=443): Max retries exceeded with url: /favicon-32x32.png?hash=989ac03e6b8daade6d2d (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1081)')))
+[2026-06-14 17:24:04] [INFO] [stacks.annas_proxy] Loaded 4 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:24:04] [INFO] [stacks.annas_proxy] Cached 3 cookies for https://annas-archive.pk/favicon-32x32.png?hash=989ac03e6b8daade6d2d -> cookie-annas-archive-pk.json
+[2026-06-14 17:24:04] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:24:04] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:24:07] [INFO] [stacks.annas_proxy] Loaded 3 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:24:07] [INFO] [stacks.annas_proxy] Cached 4 cookies for https://annas-archive.pk/search?q=yellowface -> cookie-annas-archive-pk.json
+[2026-06-14 17:24:07] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:24:07] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:24:08] [INFO] [stacks.annas_proxy] Loaded 4 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:24:08] [INFO] [stacks.annas_proxy] Cached 3 cookies for https://annas-archive.pk/js/app.js?hash=5a353d06ed51b8ab50b6 -> cookie-annas-archive-pk.json
+[2026-06-14 17:24:08] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:24:08] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:24:08] [INFO] [stacks.annas_proxy] Loaded 3 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:24:08] [INFO] [stacks.annas_proxy] Cached 4 cookies for https://annas-archive.pk/css/app.css?hash=c845583244c957d7f819 -> cookie-annas-archive-pk.json
+[2026-06-14 17:24:08] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:24:08] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:24:08] [INFO] [stacks.annas_proxy] Loaded 4 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:24:08] [INFO] [stacks.annas_proxy] Cached 3 cookies for https://annas-archive.pk/apple-touch-icon.png?hash=d2fa3410fb1ae23ef0ab -> cookie-annas-archive-pk.json
+[2026-06-14 17:24:08] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:24:08] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:24:08] [INFO] [stacks.annas_proxy] Loaded 3 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:24:08] [INFO] [stacks.annas_proxy] Cached 4 cookies for https://annas-archive.pk/favicon-32x32.png?hash=989ac03e6b8daade6d2d -> cookie-annas-archive-pk.json
+[2026-06-14 17:24:08] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:24:08] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:24:13] [INFO] [stacks.coordinator.queue_ops] Added to queue: ccb4d999ce89e0433ab817e5867859d9
+[2026-06-14 17:24:13] [INFO] [worker.scraper-1] Fetching metadata for: ccb4d999ce89e0433ab817e5867859d9
+[2026-06-14 17:24:13] [INFO] [worker.scraper-1] Initializing downloader for scraping
+[2026-06-14 17:24:13] [INFO] [stacks_downloader] FlareSolverr not configured - using Anna's Archive slow_download sources only
+[2026-06-14 17:24:13] [INFO] [stacks_downloader] Loaded 4 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:24:14] [INFO] [stacks_downloader] Extracted filename from Filepath metadata: Yellowface - R. F. Kuang.epub
+[2026-06-14 17:24:14] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:24:14] [INFO] [stacks.utils.domainutils] Successfully used domain: annas-archive.pk
+[2026-06-14 17:24:14] [INFO] [worker.scraper-1] Found 4 mirrors for ccb4d999ce89e0433ab817e5867859d9
+[2026-06-14 17:24:15] [INFO] [stacks.coordinator.queue_ops] Worker download-0 claimed ccb4d999ce89e0433ab817e5867859d9 from annas-archive.pk
+[2026-06-14 17:24:15] [INFO] [worker.download-0] Got job: ccb4d999ce89e0433ab817e5867859d9 with mirror: {'url': 'https://annas-archive.pk/slow_download/ccb4d999ce89e0433ab817e5867859d9/0/4', 'type': 'slow_download', 'domain': 'annas-archive.pk', 'text': 'Slow Partner Server #5'}
+[2026-06-14 17:24:15] [INFO] [worker.download-0] Claimed job: ccb4d999ce89e0433ab817e5867859d9 (4 mirrors available)
+[2026-06-14 17:24:15] [INFO] [worker.download-0] Initializing downloader
+[2026-06-14 17:24:15] [INFO] [stacks_downloader] FlareSolverr not configured - using Anna's Archive slow_download sources only
+[2026-06-14 17:24:15] [INFO] [stacks_downloader] Loaded 4 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:24:15] [INFO] [worker.download-0] Trying mirror 1/1: annas-archive.pk
+[2026-06-14 17:24:15] [INFO] [stacks_downloader] Loaded 4 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:24:15] [WARNING] [stacks_downloader] Got 403 but no FlareSolverr configured
+[2026-06-14 17:24:15] [WARNING] [worker.download-0] Mirror annas-archive.pk failed
+[2026-06-14 17:24:15] [WARNING] [stacks.coordinator.queue_ops] Download failed: ccb4d999ce89e0433ab817e5867859d9 - Mirror annas-archive.pk failed
+[2026-06-14 17:24:15] [WARNING] [worker.download-0] Download failed: Yellowface - R. F. Kuang.epub - Mirror annas-archive.pk failed
+[2026-06-14 17:28:14] [INFO] [worker.scraper-1] Scraper process stopping
+[2026-06-14 17:28:14] [INFO] [worker.coordinator-1] Coordinator process stopping
+[2026-06-14 17:28:14] [INFO] [worker.download-0] Download worker download-0 stopping
+[2026-06-14 17:28:14] [INFO] [stacks_downloader] Closing HTTP session...
+[2026-06-14 17:28:14] [INFO] [worker.scraper-1] Scraper process stopped
+[2026-06-14 17:28:14] [INFO] [worker.coordinator-1] Coordinator process stopped
+[2026-06-14 17:28:14] [INFO] [stacks_downloader] Closing HTTP session...
+[2026-06-14 17:28:14] [INFO] [worker.download-0] Download worker download-0 stopped
+[2026-06-14 17:28:15] [INFO] [stacks.server] Stacks server initializing...
+[2026-06-14 17:28:15] [DEBUG] [config] Loaded config schema.
+[2026-06-14 17:28:15] [DEBUG] [config] Loaded config.
+[2026-06-14 17:28:15] [DEBUG] [config] Validating config.
+[2026-06-14 17:28:15] [DEBUG] [config] Config validated.
+[2026-06-14 17:28:15] [INFO] [stacks.server] Production mode: Using multi-process architecture
+[2026-06-14 17:28:15] [INFO] [worker.coordinator-1] Coordinator process starting
+[2026-06-14 17:28:15] [INFO] [worker.download-0] Download worker download-0 starting
+[2026-06-14 17:28:15] [INFO] [worker.scraper-1] Scraper process starting
+[2026-06-14 17:28:15] [INFO] [stacks.server] Stacks initialized
+[2026-06-14 17:30:01] [INFO] [worker.download-0] Download worker download-0 stopping
+[2026-06-14 17:30:01] [INFO] [worker.coordinator-1] Coordinator process stopping
+[2026-06-14 17:30:01] [INFO] [worker.scraper-1] Scraper process stopping
+[2026-06-14 17:30:01] [INFO] [worker.scraper-1] Scraper process stopped
+[2026-06-14 17:30:01] [INFO] [worker.download-0] Download worker download-0 stopped
+[2026-06-14 17:30:01] [INFO] [worker.coordinator-1] Coordinator process stopped
+[2026-06-14 17:30:11] [INFO] [worker.coordinator-1] Coordinator process starting
+[2026-06-14 17:30:11] [INFO] [worker.download-0] Download worker download-0 starting
+[2026-06-14 17:30:11] [INFO] [stacks.server] Stacks server initializing...
+[2026-06-14 17:30:11] [INFO] [worker.scraper-1] Scraper process starting
+[2026-06-14 17:30:11] [DEBUG] [config] Loaded config schema.
+[2026-06-14 17:30:11] [DEBUG] [config] Loaded config.
+[2026-06-14 17:30:11] [DEBUG] [config] Validating config.
+[2026-06-14 17:30:11] [DEBUG] [config] Config validated.
+[2026-06-14 17:30:11] [INFO] [stacks.server] Production mode: Using multi-process architecture
+[2026-06-14 17:30:11] [INFO] [stacks.server] Stacks initialized
+[2026-06-14 17:30:18] [INFO] [stacks.coordinator.queue_ops] Added to queue: ccb4d999ce89e0433ab817e5867859d9
+[2026-06-14 17:30:19] [INFO] [worker.scraper-1] Fetching metadata for: ccb4d999ce89e0433ab817e5867859d9
+[2026-06-14 17:30:19] [INFO] [worker.scraper-1] Initializing downloader for scraping
+[2026-06-14 17:30:19] [INFO] [stacks_downloader] FlareSolverr enabled: http://flaresolverr:8191
+[2026-06-14 17:30:19] [INFO] [stacks_downloader] Using Anna's Archive slow_download sources only
+[2026-06-14 17:30:21] [INFO] [stacks_downloader] Extracted filename from Filepath metadata: Yellowface - R. F. Kuang.epub
+[2026-06-14 17:30:21] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:30:21] [INFO] [stacks.utils.domainutils] Successfully used domain: annas-archive.pk
+[2026-06-14 17:30:21] [INFO] [worker.scraper-1] Found 4 mirrors for ccb4d999ce89e0433ab817e5867859d9
+[2026-06-14 17:30:21] [INFO] [stacks.coordinator.queue_ops] Worker download-0 claimed ccb4d999ce89e0433ab817e5867859d9 from annas-archive.pk
+[2026-06-14 17:30:21] [INFO] [worker.download-0] Got job: ccb4d999ce89e0433ab817e5867859d9 with mirror: {'url': 'https://annas-archive.pk/slow_download/ccb4d999ce89e0433ab817e5867859d9/0/4', 'type': 'slow_download', 'domain': 'annas-archive.pk', 'text': 'Slow Partner Server #5'}
+[2026-06-14 17:30:21] [INFO] [worker.download-0] Claimed job: ccb4d999ce89e0433ab817e5867859d9 (4 mirrors available)
+[2026-06-14 17:30:21] [INFO] [worker.download-0] Initializing downloader
+[2026-06-14 17:30:21] [INFO] [stacks_downloader] FlareSolverr enabled: http://flaresolverr:8191
+[2026-06-14 17:30:21] [INFO] [stacks_downloader] Using Anna's Archive slow_download sources only
+[2026-06-14 17:30:21] [INFO] [worker.download-0] Trying mirror 1/1: annas-archive.pk
+[2026-06-14 17:30:21] [WARNING] [stacks_downloader] Got 403, solving challenge with FlareSolverr...
+[2026-06-14 17:30:21] [INFO] [stacks_downloader] Using FlareSolverr to solve protection challenge...
+[2026-06-14 17:31:24] [ERROR] [stacks_downloader] FlareSolverr error: 500 Server Error: Internal Server Error for url: http://flaresolverr:8191/v1
+[2026-06-14 17:31:24] [ERROR] [stacks_downloader] FlareSolverr failed
+[2026-06-14 17:31:24] [WARNING] [worker.download-0] Mirror annas-archive.pk failed
+[2026-06-14 17:31:24] [WARNING] [stacks.coordinator.queue_ops] Download failed: ccb4d999ce89e0433ab817e5867859d9 - Mirror annas-archive.pk failed
+[2026-06-14 17:31:24] [WARNING] [worker.download-0] Download failed: Yellowface - R. F. Kuang.epub - Mirror annas-archive.pk failed
+[2026-06-14 17:35:20] [INFO] [worker.coordinator-1] Coordinator process stopping
+[2026-06-14 17:35:20] [INFO] [worker.scraper-1] Scraper process stopping
+[2026-06-14 17:35:20] [INFO] [worker.download-0] Download worker download-0 stopping
+[2026-06-14 17:35:20] [INFO] [worker.coordinator-1] Coordinator process stopped
+[2026-06-14 17:35:20] [INFO] [stacks_downloader] Closing HTTP session...
+[2026-06-14 17:35:20] [INFO] [worker.download-0] Download worker download-0 stopped
+[2026-06-14 17:35:20] [INFO] [stacks_downloader] Closing HTTP session...
+[2026-06-14 17:35:20] [INFO] [worker.scraper-1] Scraper process stopped
+[2026-06-14 17:35:21] [INFO] [stacks.server] Stacks server initializing...
+[2026-06-14 17:35:21] [DEBUG] [config] Loaded config schema.
+[2026-06-14 17:35:21] [DEBUG] [config] Loaded config.
+[2026-06-14 17:35:21] [DEBUG] [config] Validating config.
+[2026-06-14 17:35:21] [DEBUG] [config] Config validated.
+[2026-06-14 17:35:21] [INFO] [stacks.server] Production mode: Using multi-process architecture
+[2026-06-14 17:35:21] [INFO] [worker.coordinator-1] Coordinator process starting
+[2026-06-14 17:35:21] [INFO] [worker.download-0] Download worker download-0 starting
+[2026-06-14 17:35:21] [INFO] [worker.scraper-1] Scraper process starting
+[2026-06-14 17:35:21] [INFO] [stacks.server] Stacks initialized
+[2026-06-14 17:36:14] [INFO] [stacks.coordinator.queue_ops] Retrying failed download: ccb4d999ce89e0433ab817e5867859d9
+[2026-06-14 17:36:16] [INFO] [worker.scraper-1] Fetching metadata for: ccb4d999ce89e0433ab817e5867859d9
+[2026-06-14 17:36:16] [INFO] [worker.scraper-1] Initializing downloader for scraping
+[2026-06-14 17:36:16] [INFO] [stacks_downloader] FlareSolverr enabled: http://flaresolverr:8191
+[2026-06-14 17:36:16] [INFO] [stacks_downloader] Using Anna's Archive slow_download sources only
+[2026-06-14 17:36:16] [INFO] [stacks_downloader] Extracted filename from Filepath metadata: Yellowface - R. F. Kuang.epub
+[2026-06-14 17:36:16] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:36:16] [INFO] [stacks.utils.domainutils] Successfully used domain: annas-archive.pk
+[2026-06-14 17:36:16] [INFO] [worker.scraper-1] Found 4 mirrors for ccb4d999ce89e0433ab817e5867859d9
+[2026-06-14 17:36:18] [INFO] [stacks.coordinator.queue_ops] Worker download-0 claimed ccb4d999ce89e0433ab817e5867859d9 from annas-archive.pk
+[2026-06-14 17:36:18] [INFO] [worker.download-0] Got job: ccb4d999ce89e0433ab817e5867859d9 with mirror: {'url': 'https://annas-archive.pk/slow_download/ccb4d999ce89e0433ab817e5867859d9/0/4', 'type': 'slow_download', 'domain': 'annas-archive.pk', 'text': 'Slow Partner Server #5'}
+[2026-06-14 17:36:18] [INFO] [worker.download-0] Claimed job: ccb4d999ce89e0433ab817e5867859d9 (4 mirrors available)
+[2026-06-14 17:36:18] [INFO] [worker.download-0] Initializing downloader
+[2026-06-14 17:36:18] [INFO] [stacks_downloader] FlareSolverr enabled: http://flaresolverr:8191
+[2026-06-14 17:36:18] [INFO] [stacks_downloader] Using Anna's Archive slow_download sources only
+[2026-06-14 17:36:18] [INFO] [worker.download-0] Trying mirror 1/1: annas-archive.pk
+[2026-06-14 17:36:18] [WARNING] [stacks_downloader] Got 403, solving challenge with FlareSolverr...
+[2026-06-14 17:36:18] [INFO] [stacks_downloader] Using FlareSolverr to solve protection challenge...
+[2026-06-14 17:38:21] [WARNING] [worker.coordinator-1] Worker download-0 appears dead (no heartbeat for 120s)
+[2026-06-14 17:38:21] [INFO] [stacks.coordinator.queue_ops] Cleaned up dead worker: download-0
+[2026-06-14 17:38:53] [INFO] [stacks.annas_proxy] Cached 4 cookies for https://annas-archive.pk/ -> cookie-annas-archive-pk.json
+[2026-06-14 17:38:53] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:38:53] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:38:53] [INFO] [stacks.annas_proxy] Loaded 4 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:38:53] [INFO] [stacks.annas_proxy] Cached 3 cookies for https://annas-archive.pk/js/app.js?hash=5a353d06ed51b8ab50b6 -> cookie-annas-archive-pk.json
+[2026-06-14 17:38:53] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:38:53] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:38:53] [INFO] [stacks.annas_proxy] Loaded 3 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:38:53] [INFO] [stacks.annas_proxy] Cached 4 cookies for https://annas-archive.pk/favicon-32x32.png?hash=989ac03e6b8daade6d2d -> cookie-annas-archive-pk.json
+[2026-06-14 17:38:53] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:38:53] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:38:53] [INFO] [stacks.annas_proxy] Loaded 4 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:38:53] [INFO] [stacks.annas_proxy] Cached 3 cookies for https://annas-archive.pk/apple-touch-icon.png?hash=d2fa3410fb1ae23ef0ab -> cookie-annas-archive-pk.json
+[2026-06-14 17:38:53] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:38:53] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:39:04] [INFO] [stacks.annas_proxy] Loaded 3 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:39:05] [INFO] [stacks.annas_proxy] Cached 4 cookies for https://annas-archive.pk/search?q=yellowface -> cookie-annas-archive-pk.json
+[2026-06-14 17:39:05] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:39:05] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:39:05] [INFO] [stacks.annas_proxy] Loaded 4 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:39:05] [INFO] [stacks.annas_proxy] Cached 3 cookies for https://annas-archive.pk/js/app.js?hash=5a353d06ed51b8ab50b6 -> cookie-annas-archive-pk.json
+[2026-06-14 17:39:05] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:39:05] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:39:05] [INFO] [stacks.annas_proxy] Loaded 3 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:39:05] [INFO] [stacks.annas_proxy] Cached 4 cookies for https://annas-archive.pk/favicon-32x32.png?hash=989ac03e6b8daade6d2d -> cookie-annas-archive-pk.json
+[2026-06-14 17:39:05] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:39:05] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:39:05] [INFO] [stacks.annas_proxy] Loaded 4 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:39:05] [INFO] [stacks.annas_proxy] Cached 3 cookies for https://annas-archive.pk/apple-touch-icon.png?hash=d2fa3410fb1ae23ef0ab -> cookie-annas-archive-pk.json
+[2026-06-14 17:39:05] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:39:05] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:39:10] [INFO] [stacks.annas_proxy] Loaded 3 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:39:11] [INFO] [stacks.annas_proxy] Cached 4 cookies for https://annas-archive.pk/md5/ccb4d999ce89e0433ab817e5867859d9 -> cookie-annas-archive-pk.json
+[2026-06-14 17:39:11] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:39:11] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:39:11] [INFO] [stacks.annas_proxy] Loaded 4 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:39:11] [INFO] [stacks.annas_proxy] Cached 3 cookies for https://annas-archive.pk/js/app.js?hash=5a353d06ed51b8ab50b6 -> cookie-annas-archive-pk.json
+[2026-06-14 17:39:11] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:39:11] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:39:11] [INFO] [stacks.annas_proxy] Loaded 3 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:39:11] [INFO] [stacks.annas_proxy] Cached 4 cookies for https://annas-archive.pk/apple-touch-icon.png?hash=d2fa3410fb1ae23ef0ab -> cookie-annas-archive-pk.json
+[2026-06-14 17:39:11] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:39:11] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:39:11] [INFO] [stacks.annas_proxy] Loaded 4 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:39:12] [INFO] [stacks.annas_proxy] Cached 3 cookies for https://annas-archive.pk/favicon-32x32.png?hash=989ac03e6b8daade6d2d -> cookie-annas-archive-pk.json
+[2026-06-14 17:39:12] [INFO] [stacks.utils.domainutils] Saved working domain: annas-archive.pk
+[2026-06-14 17:39:12] [INFO] [stacks.annas_proxy] Successfully used domain: annas-archive.pk
+[2026-06-14 17:39:16] [INFO] [stacks.annas_proxy] Loaded 3 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:39:16] [INFO] [stacks.annas_proxy] Using FlareSolverr to solve protection challenge...
+[2026-06-14 17:39:20] [ERROR] [stacks_downloader] FlareSolverr error: 500 Server Error: Internal Server Error for url: http://flaresolverr:8191/v1
+[2026-06-14 17:39:20] [ERROR] [stacks_downloader] FlareSolverr failed
+[2026-06-14 17:39:20] [WARNING] [worker.download-0] Mirror annas-archive.pk failed
+[2026-06-14 17:39:20] [WARNING] [stacks.coordinator.queue_ops] Download failed: ccb4d999ce89e0433ab817e5867859d9 - Mirror annas-archive.pk failed
+[2026-06-14 17:39:20] [WARNING] [worker.download-0] Download failed: Yellowface - R. F. Kuang.epub - Mirror annas-archive.pk failed
+[2026-06-14 17:39:22] [INFO] [stacks.coordinator.queue_ops] Worker download-0 claimed ccb4d999ce89e0433ab817e5867859d9 from annas-archive.pk
+[2026-06-14 17:39:22] [INFO] [worker.download-0] Got job: ccb4d999ce89e0433ab817e5867859d9 with mirror: {'url': 'https://annas-archive.pk/slow_download/ccb4d999ce89e0433ab817e5867859d9/0/4', 'type': 'slow_download', 'domain': 'annas-archive.pk', 'text': 'Slow Partner Server #5'}
+[2026-06-14 17:39:22] [INFO] [worker.download-0] Claimed job: ccb4d999ce89e0433ab817e5867859d9 (4 mirrors available)
+[2026-06-14 17:39:22] [INFO] [worker.download-0] Trying mirror 1/1: annas-archive.pk
+[2026-06-14 17:39:22] [INFO] [stacks_downloader] Loaded 3 fresh cached cookies for annas-archive.pk
+[2026-06-14 17:39:22] [WARNING] [stacks_downloader] Got 403, solving challenge with FlareSolverr...
+[2026-06-14 17:39:22] [INFO] [stacks_downloader] Using FlareSolverr to solve protection challenge...
+[2026-06-14 17:39:47] [INFO] [worker.scraper-1] Scraper process stopping
+[2026-06-14 17:39:47] [INFO] [worker.coordinator-1] Coordinator process stopping
+[2026-06-14 17:39:47] [ERROR] [stacks_downloader] FlareSolverr error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2026-06-14 17:39:47] [ERROR] [stacks_downloader] FlareSolverr failed
+[2026-06-14 17:39:47] [WARNING] [worker.download-0] Mirror annas-archive.pk failed
+[2026-06-14 17:39:47] [INFO] [worker.download-0] Worker stopping, leaving job ccb4d999ce89e0433ab817e5867859d9 for cleanup
+[2026-06-14 17:39:47] [INFO] [worker.download-0] Download worker download-0 stopping
+[2026-06-14 17:39:47] [ERROR] [stacks.annas_proxy] FlareSolverr error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2026-06-14 17:39:47] [WARNING] [stacks.annas_proxy] Failed with domain annas-archive.pk: Blocked by remote protection on annas-archive.pk
+[2026-06-14 17:39:47] [INFO] [stacks_downloader] Closing HTTP session...
+[2026-06-14 17:39:47] [INFO] [worker.scraper-1] Scraper process stopped
+[2026-06-14 17:39:47] [INFO] [stacks_downloader] Closing HTTP session...
+[2026-06-14 17:39:47] [INFO] [worker.download-0] Download worker download-0 stopped
+[2026-06-14 17:39:47] [INFO] [worker.coordinator-1] Coordinator process stopped
+[2026-06-14 17:39:48] [INFO] [stacks.annas_proxy] Using FlareSolverr to solve protection challenge...
+[2026-06-14 17:40:02] [ERROR] [stacks.annas_proxy] FlareSolverr error: HTTPConnectionPool(host='flaresolverr', port=8191): Max retries exceeded with url: /v1 (Caused by NewConnectionError("HTTPConnection(host='flaresolverr', port=8191): Failed to establish a new connection: [Errno 113] Host is unreachable"))
+[2026-06-14 17:40:02] [WARNING] [stacks.annas_proxy] Failed with domain annas-archive.gl: Blocked by remote protection on annas-archive.gl
+[2026-06-14 17:40:02] [WARNING] [stacks.annas_proxy] Failed with domain annas-archive.vg: HTTPSConnectionPool(host='annas-archive.vg', port=443): Max retries exceeded with url: /slow_download/ccb4d999ce89e0433ab817e5867859d9/0/0 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1081)')))
+[2026-06-14 17:40:07] [WARNING] [stacks.annas_proxy] Failed with domain annas-archive.gd: HTTPSConnectionPool(host='annas-archive.gd', port=443): Max retries exceeded with url: /slow_download/ccb4d999ce89e0433ab817e5867859d9/0/0 (Caused by NameResolutionError("HTTPSConnection(host='annas-archive.gd', port=443): Failed to resolve 'annas-archive.gd' ([Errno -3] Try again)"))
+[2026-06-14 17:40:07] [ERROR] [stacks.server.webserver] Exception on /aa/slow_download/ccb4d999ce89e0433ab817e5867859d9/0/0 [GET]
+Traceback (most recent call last):
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Try again
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/urllib3/connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='annas-archive.gd', port=443): Failed to resolve 'annas-archive.gd' ([Errno -3] Try again)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/urllib3/connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/urllib3/util/retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='annas-archive.gd', port=443): Max retries exceeded with url: /slow_download/ccb4d999ce89e0433ab817e5867859d9/0/0 (Caused by NameResolutionError("HTTPSConnection(host='annas-archive.gd', port=443): Failed to resolve 'annas-archive.gd' ([Errno -3] Try again)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/flask_cors/extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/stacks/security/auth.py", line 111, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/stacks/api/annas_proxy.py", line 317, in annas_proxy_path
+    remote_response, domain = _fetch_with_domain_rotation(proxy_path)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/stacks/api/annas_proxy.py", line 298, in _fetch_with_domain_rotation
+    raise last_error if last_error else Exception("All Anna's Archive domains failed")
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/stacks/api/annas_proxy.py", line 290, in _fetch_with_domain_rotation
+    remote_response, used_domain = _fetch_remote_response(proxy_path, domain)
+                                   ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/stacks/api/annas_proxy.py", line 138, in _fetch_remote_response
+    response = proxy_context.session.request(
+        method=request.method,
+    ...<4 lines>...
+        timeout=(5, 30),
+    )
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/tmp/pex/unzipped_pexes/3/5d2837088ed06e5ffdd8c62221f4277803b16de1/requests/adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='annas-archive.gd', port=443): Max retries exceeded with url: /slow_download/ccb4d999ce89e0433ab817e5867859d9/0/0 (Caused by NameResolutionError("HTTPSConnection(host='annas-archive.gd', port=443): Failed to resolve 'annas-archive.gd' ([Errno -3] Try again)"))

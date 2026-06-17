@@ -847,6 +847,36 @@ class QueueOperations:
         finally:
             conn.close()
 
+    def remove_history_item(self, md5: str) -> bool:
+        """
+        Remove a single completed or failed download from history.
+
+        Args:
+            md5: The MD5 hash of the history item to remove
+
+        Returns:
+            True if removed, False if not found or not a history item
+        """
+        conn = get_connection()
+        try:
+            cursor = conn.execute("""
+                DELETE FROM downloads
+                WHERE md5 = ? AND status IN ('completed', 'failed')
+                RETURNING md5
+            """, (md5,))
+            removed = cursor.fetchone() is not None
+            conn.commit()
+
+            if removed:
+                logger.info(f"Removed history item: {md5}")
+            return removed
+        except Exception as e:
+            logger.error(f"Failed to remove history item: {e}")
+            conn.rollback()
+            return False
+        finally:
+            conn.close()
+
     # -------------------------------------------------------------------------
     # Pause / cancel controls
     # -------------------------------------------------------------------------

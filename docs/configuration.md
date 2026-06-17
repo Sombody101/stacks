@@ -50,7 +50,7 @@ environment:
   - TZ=UTC # Timezone for logs and timestamps
   - USERNAME=admin # Initial username (seeds config on first run)
   - PASSWORD=stacks # Initial password (seeds config on first run)
-  - SOLVERR_URL=flaresolverr:8191 # Embedds the URL and port for FlareSolverr on first run
+  - SOLVERR_URL=flaresolverr:8191 # Enables FlareSolverr and embeds the URL/port on first run
   - RESET_ADMIN=true # Force password reset
   - FLASK_DEBUG=true # Sets Flask into Debug mode on startup
 
