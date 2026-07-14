@@ -81,8 +81,8 @@ class _ProxySessionContext:
     def load_cached_cookies(self, domain=None):
         return _load_cached_cookies(self, domain)
 
-    def save_cookies_to_cache(self, cookies_dict, domain=None):
-        return _save_cookies_to_cache(self, cookies_dict, domain)
+    def save_cookies_to_cache(self, cookies_dict, domain=None, user_agent=None):
+        return _save_cookies_to_cache(self, cookies_dict, domain, user_agent=user_agent)
 
     def solve_with_flaresolverr(self, url):
         return solve_with_flaresolverr(self, url)
@@ -102,6 +102,16 @@ def _build_target_url(domain, proxy_path):
 
 def _extract_cookie_values(response):
     return {cookie.name: cookie.value for cookie in response.cookies}
+
+
+def _build_solved_html_response(target_url, html_content):
+    response = requests.Response()
+    response.status_code = 200
+    response.url = target_url
+    response.headers["Content-Type"] = "text/html; charset=utf-8"
+    response._content = html_content.encode("utf-8")
+    response.encoding = "utf-8"
+    return response
 
 
 def _looks_like_protection(response):
@@ -145,8 +155,10 @@ def _fetch_remote_response(proxy_path, domain):
         )
 
         if _looks_like_protection(response) and request.method == "GET" and proxy_context.flaresolverr_url:
-            solved, cookies, _ = proxy_context.solve_with_flaresolverr(target_url)
-            if solved and cookies:
+            solved, cookies, html_content = proxy_context.solve_with_flaresolverr(target_url)
+            if solved and html_content:
+                response = _build_solved_html_response(target_url, html_content)
+            elif solved and cookies:
                 response = proxy_context.session.request(
                     method=request.method,
                     url=target_url,

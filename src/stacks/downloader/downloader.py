@@ -100,8 +100,8 @@ class AnnaDownloader:
     def load_cached_cookies(self, domain=None):
         return _load_cached_cookies(self, domain)
 
-    def save_cookies_to_cache(self, cookies_dict, domain=None):
-        return _save_cookies_to_cache(self, cookies_dict, domain)
+    def save_cookies_to_cache(self, cookies_dict, domain=None, user_agent=None):
+        return _save_cookies_to_cache(self, cookies_dict, domain, user_agent=user_agent)
 
     def prewarm_cookies(self):
         return _prewarm_cookies(self)

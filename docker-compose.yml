@@ -22,6 +22,9 @@ services:
       # OPTIONAL: Separate incomplete folder (requires setting in Stacks UI)
       # Uncomment and set incomplete_folder_path to "/incomplete" in the UI
       # - "/path/to/incomplete:/opt/stacks/incomplete"
+    tmpfs:
+      # Worker heartbeats are high-frequency, non-durable runtime state.
+      - /run/stacks:mode=0700,size=1m
     restart: unless-stopped
     environment:
       # Only applies to first run, after that the config.yaml has all relevant info
@@ -34,6 +37,9 @@ services:
       # If you already got it running, you can change this address to match your local
       # setup, or delete this variable and set it up inside Stacks.
       - SOLVERR_URL=flaresolverr:8191
+
+      # Keep health-check writes off the persistent NAS config volume.
+      - STACKS_RUNTIME_PATH=/run/stacks
 
       # Set your timezone, a comprehensive list can be found here:
       # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
